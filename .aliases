@@ -1,0 +1,9 @@
+##
+# Aliases
+
+#genkey function is defined in function files, in order to pass parameters.
+alias gen-ssh-key='genkey'
+
+#Reloads Bash
+alias bash_reload='source ~/.bashrc'
+

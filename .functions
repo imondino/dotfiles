@@ -1,0 +1,10 @@
+##
+# Functions
+
+#genkey generates an ssh keypair.
+#Accepts a parameter for it's file name
+#EMAIL should be defined in the exports file.
+genkey (){
+ssh-keygen -t rsa -b 4096 -C $EMAIL -f ~/.ssh/id_rsa_$1
+}
+
