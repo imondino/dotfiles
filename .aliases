@@ -7,3 +7,6 @@ alias gen-ssh-key='genkey'
 #Reloads Bash
 alias bash_reload='source ~/.bashrc'
 
+#Color
+alias ls='ls --color' 
+alias grep='grep --color' 
