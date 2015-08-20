@@ -10,3 +10,6 @@ alias bash_reload='source ~/.bashrc'
 #Color
 alias ls='ls --color' 
 alias grep='grep --color' 
+
+#Added for compatibility with old servers.
+alias ssh='TERM=xterm ssh'
