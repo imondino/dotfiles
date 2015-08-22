@@ -11,7 +11,7 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	done;
 	unset file;
 
-
+# Load completion.
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
