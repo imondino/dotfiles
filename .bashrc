@@ -16,3 +16,5 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+#Append history right away.
+shopt -s histappend
