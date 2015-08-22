@@ -13,3 +13,6 @@ alias grep='grep --color'
 
 #Added for compatibility with old servers.
 alias ssh='TERM=xterm ssh'
+
+#Gives you the most used commands, master these.
+alias master_these='most-used-commands'
