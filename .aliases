@@ -14,5 +14,8 @@ alias grep='grep --color'
 #Added for compatibility with old servers.
 alias ssh='TERM=xterm ssh'
 
+#ansible sintax check
+alias ansible-check='ansible-playbook --syntax-check --list-tasks'
+
 #Gives you the most used commands, master these.
 alias master_these='most-used-commands'
