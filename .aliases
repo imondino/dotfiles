@@ -12,12 +12,13 @@ alias bash_reload='source ~/.bashrc'
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then 
 # GNU `ls`	
-  colorflag="--color"else 
+  colorflag="--color"
+else 
 # OS X `ls`	
   colorflag="-G"
 fi
 
-alias l="ls -lF ${colorflag}"
+alias ls="ls ${colorflag}"
 alias grep='grep --color' 
 
 #Added for compatibility with old servers.
