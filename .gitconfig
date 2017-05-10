@@ -5,6 +5,14 @@
 	s = status -s
 	# List contributors
 	contributors = shortlog --summary --numbered
+    # unstages a file. use like 'git unstage filename'
+    rf = reset HEAD --
+    # resets all uncomitted changes and files
+    rh = reset --hard HEAD
+    # shows diff only for files staged to commit
+    new = diff --cached
+    # undo last commit
+    undo = reset HEAD~1
 
 [core]
 	editor = vim
