@@ -1,4 +1,5 @@
 
-#Dotfiles.#
+Dotfiles.
+=========
 
-Various config files.
+My dotfiles, nothing fancy, just everyday stuff.
